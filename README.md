@@ -22,3 +22,28 @@ Para compilar o projeto, navegue até o diretório raiz onde estão os arquivos 
 
 ```bash
 make
+```
+Isso criará um executável chamado quicksort_iterativo.
+
+Para executar o programa, utilize o seguinte comando:
+```
+./quicksort_iterativo
+```
+O programa aguardará a entrada de dados via terminal. Você deve:
+
+    Informar o número de elementos a serem ordenados.
+
+    Informar os elementos inteiros separados por espaço ou por linha.
+
+Exemplo:
+Entrada:
+```
+5
+7 2 9 1 5
+```
+Saída esperada:
+```
+1 2 5 7 9
+``
+
+    O programa realiza a ordenação in-place utilizando a versão iterativa do QuickSort com o auxílio de uma pilha para controle das partições.
