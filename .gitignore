@@ -1,0 +1,10 @@
+# Ignorar arquivos objeto
+*.o
+
+# Ignorar o executável
+quicksort_iterativo
+
+# Arquivos de configuração do VS Code
+.vscode/settings.json
+# Pasta de configuração do VS Code
+.vscode/
